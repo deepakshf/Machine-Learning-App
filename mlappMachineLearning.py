@@ -18,9 +18,10 @@ from pycaret.regression import setup, compare_models, pull, save_model, Regressi
 
 import os
 
-st.title('Machine Learning App using Pycaret')
+st.title('Machine Learning App using')
 ml_logo = "pycaret.png"
 st.image(ml_logo, width=300)
+st.write('Auto ML Library')
 
 if os.path.exists("sourcev.csv"):
     data = pd.read_csv('sourcev.csv',index_col=None)
