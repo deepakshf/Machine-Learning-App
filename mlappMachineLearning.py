@@ -21,7 +21,7 @@ import os
 st.title('Machine Learning App using')
 ml_logo = "pycaret.png"
 st.image(ml_logo, width=300)
-st.write('Auto ML Library')
+st.title('Auto ML Library')
 
 if os.path.exists("sourcev.csv"):
     data = pd.read_csv('sourcev.csv',index_col=None)
