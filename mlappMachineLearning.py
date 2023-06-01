@@ -24,9 +24,8 @@ if os.path.exists("sourcev.csv"):
     data = pd.read_csv('sourcev.csv',index_col=None)
 
 with st.sidebar:
-    st.title('Welcome to Pycaret')
+    st.title('Welcome to ML App')
     st.write('This application provides functionalities to upload datasets, perform EDA, train machine learning models using Pycaret, and download the trained models.')
-    st.write('This application is made up for learning machine models.')
     st.write('Choose your parameters here work with parameters')
     choose = st.radio('Choose you options',['Dataset', 'EDA','Training','Download'])
     
@@ -85,21 +84,3 @@ if choose =="Download":
     with open("Machine Learning model.pkl",'rb') as f:
         st.caption("Download your model from here:")
         st.download_button("Download the file",f,"Machine Learning model.pkl")
-            
-            
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-        
-    
-    
-
-    
-
