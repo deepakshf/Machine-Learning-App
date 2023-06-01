@@ -19,7 +19,7 @@ from pycaret.regression import setup, compare_models, pull, save_model, Regressi
 import os
 
 st.title('Machine Learning App using Pycaret')
-ml_logo = "ml.png"
+ml_logo = "pycaret.png"
 st.image(ml_logo, width=300)
 
 if os.path.exists("sourcev.csv"):
@@ -28,7 +28,7 @@ if os.path.exists("sourcev.csv"):
 with st.sidebar:
     st.title('Welcome to ML App')
     ml_logo = "ml.png"
-    st.image(ml_logo, width=300)
+    st.image(ml_logo, width=250)
     st.write('This application provides functionalities to upload datasets, perform EDA, train machine learning models using Pycaret, and download the trained models.')
     st.write('Choose your parameters.')
     choose = st.radio('Choose you options',['Dataset', 'EDA','Training','Download'])
