@@ -24,6 +24,8 @@ if os.path.exists("sourcev.csv"):
     data = pd.read_csv('sourcev.csv',index_col=None)
 
 with st.sidebar:
+    image = Image.open('ml.png')
+    st.image(image, caption='machine learning logo')
     st.title('Welcome to ML App')
     st.write('This application provides functionalities to upload datasets, perform EDA, train machine learning models using Pycaret, and download the trained models.')
     st.write('Choose your parameters.')
