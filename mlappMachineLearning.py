@@ -25,6 +25,7 @@ if os.path.exists("sourcev.csv"):
 
 with st.sidebar:
     st.title('Welcome to Pycaret')
+    st.write('This application provides functionalities to upload datasets, perform EDA, train machine learning models using Pycaret, and download the trained models.')
     st.write('This application is made up for learning machine models.')
     st.write('Choose your parameters here work with parameters')
     choose = st.radio('Choose you options',['Dataset', 'EDA','Training','Download'])
