@@ -9,7 +9,7 @@ import streamlit as st
 page_bg_img = f"""
 <style>
 [data-testid = "stAppViewContainer"]{{
-    background-image: url("https://img.pikbest.com/backgrounds/20210610/abstract-neon-light-gate-black-background-design-vector_5980522.jpg!w700wp");
+    background-image: url("https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.istockphoto.com%2Fphoto%2Fabstract-blue-backgrounds-gm1206001151-347653916&psig=AOvVaw13KPnujnv5_ieio_EYyd2Q&ust=1685771353347000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCNCVz-fxo_8CFQAAAAAdAAAAABA5");
     background-size: cover;
     opacity: 0.9;
     }}
