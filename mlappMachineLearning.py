@@ -85,7 +85,7 @@ if choose == 'Training':
             best_model2
             s2.save_model(best_model2,"Machine_learning_Model")
 
-if choose =="Download":
+if choose == 'Download':
     with open("Machine_Learning_model.pkl",'rb') as f:
         st.caption("Download your model from here:")
         st.download_button("Download the file",f,"Machine_Learning_model.pkl")
