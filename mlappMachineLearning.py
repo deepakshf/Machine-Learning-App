@@ -9,7 +9,7 @@ import streamlit as st
 page_bg_img = f"""
 <style>
 [data-testid = "stAppViewContainer"]{{
-    background-image: url("https://u7.uidownload.com/vector/854/294/vector-yellow-abstract-background-ai.jpg");
+    background-image: url("https://img.freepik.com/free-vector/abstract-background_53876-43364.jpg?w=1060&t=st=1685685448~exp=1685686048~hmac=bf06f2136962f77d8fb9a95948390114a68a61622da7713a357e1e359c89618c");
     background-size: cover;
     opacity: 0.9;
     }}
