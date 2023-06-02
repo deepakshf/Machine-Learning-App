@@ -6,6 +6,23 @@ Created on Fri Mar 31 10:25:47 2023
 """
 
 import streamlit as st
+page_bg_img = f"""
+<style>
+[data-testid = "stAppViewContainer"]{{
+    background-image: url("https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/v546batch3-mynt-34-badgewatercolor_1.jpg?w=800&dpr=1&fit=default&crop=default&q=65&vib=3&con=3&usm=15&bg=F4F4F3&ixlib=js-2.2.1&s=89288ef4b47127f7f34a5998b50e4470");
+    background-size: cover;
+    opacity: 0.9;
+    }}
+[data-testid = "stSidebar"]{{
+    background-color: #E3D3CE;
+    opacity: 0.8;
+    filter: blur(0.2px);
+    }}
+
+</style>
+"""
+st.markdown(page_bg_img, unsafe_allow_html = True)
+
 import numpy as np
 import pandas as pd
 import seaborn as sns
